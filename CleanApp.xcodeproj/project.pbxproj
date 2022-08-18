@@ -10,7 +10,7 @@
 		14B00F6928ADA9D3001AFBC0 /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B00F6828ADA9D3001AFBC0 /* AddAccount.swift */; };
 		14B00F6B28ADAB05001AFBC0 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B00F6A28ADAB05001AFBC0 /* AccountModel.swift */; };
 		14B00F7928ADAB4E001AFBC0 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B00F7128ADAB4E001AFBC0 /* Data.framework */; };
-		14B00F7E28ADAB4E001AFBC0 /* RemoteAddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B00F7D28ADAB4E001AFBC0 /* RemoteAddAccount.swift */; };
+		14B00F7E28ADAB4E001AFBC0 /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B00F7D28ADAB4E001AFBC0 /* RemoteAddAccountTests.swift */; };
 		14B00F8728ADAB7F001AFBC0 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B00F6128ADA9B7001AFBC0 /* Domain.framework */; };
 		14B00F8828ADAB7F001AFBC0 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14B00F6128ADA9B7001AFBC0 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -52,7 +52,7 @@
 		14B00F6A28ADAB05001AFBC0 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 		14B00F7128ADAB4E001AFBC0 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B00F7828ADAB4E001AFBC0 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14B00F7D28ADAB4E001AFBC0 /* RemoteAddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccount.swift; sourceTree = "<group>"; };
+		14B00F7D28ADAB4E001AFBC0 /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 		14B00F7C28ADAB4E001AFBC0 /* DataTests */ = {
 			isa = PBXGroup;
 			children = (
-				14B00F7D28ADAB4E001AFBC0 /* RemoteAddAccount.swift */,
+				14B00F7D28ADAB4E001AFBC0 /* RemoteAddAccountTests.swift */,
 			);
 			path = DataTests;
 			sourceTree = "<group>";
@@ -297,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14B00F7E28ADAB4E001AFBC0 /* RemoteAddAccount.swift in Sources */,
+				14B00F7E28ADAB4E001AFBC0 /* RemoteAddAccountTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
